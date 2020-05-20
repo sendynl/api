@@ -130,7 +130,7 @@ Example in PHP with Guzzle
     $response = $client->post(
         'parcel-shop/search',
         [
-            'body' => [
+            'form_params' => [
                 'zip_code' => '3905KW',
                 'street_line_1' => 'Wiltonstraat',
                 'number_line_1' => '41',
