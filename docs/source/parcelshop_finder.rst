@@ -131,6 +131,7 @@ Example in PHP with Guzzle
         'parcel-shop/search',
         [
             'body' => [
+                'zip_code' => '3905KW',
                 'street_line_1' => 'Wiltonstraat',
                 'number_line_1' => '41',
                 'country' => 'NL',
