@@ -69,7 +69,7 @@ Code Cause
 
     $response = $client->post(
         'label',
-        ['body' => ['shipments' => [123456, 123457, 123458]]]
+        ['json' => ['shipments' => [123456, 123457, 123458]]]
     );
 
     file_put_contents('labels.pdf', base64_decode(json_decode($response->getBody())->labels));
